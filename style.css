@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600;700&display=swap');
+
+[data-testid='block-container'] {
+    background-color: '#F2F2F2';
+}
+
+.header-title{
+    text-align: center; 
+    font-weight: bold;
+    color: '#252526'; 
+    font-size: 60px; 
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title{
+    text-align: center; 
+    color: '#252526'; 
+    font-size: 25px; 
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 100px;
+}
