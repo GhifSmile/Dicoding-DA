@@ -31,13 +31,13 @@ def main():
 
         with col1:
 
-            st.markdown("<h1 class='title'>Total Counts per Month by Season</h1>", unsafe_allow_html=True)
+            st.markdown("<h1 class='title'>Total Counts per Year by Season</h1>", unsafe_allow_html=True)
             
             st.pyplot(year_season)
         
         with col2:
             
-            st.markdown("<h1 class='title'>Total Counts per Month by Weathersit</h1>", unsafe_allow_html=True)
+            st.markdown("<h1 class='title'>Total Counts per Year by Weathersit</h1>", unsafe_allow_html=True)
             
             st.pyplot(year_weathersit)
 
